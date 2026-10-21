@@ -37,7 +37,8 @@ jobs:
             echo "No generated image or report changes."
           else
             git commit -m "Host verified product images and add audit report"
-            git push origin HEAD:$GITHUB_REF_NAME
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            git push origin HEAD:"$GITHUB_REF_NAME"
           fi
       - name: Upload audit report
         if: always()
