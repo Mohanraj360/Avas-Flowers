@@ -12,6 +12,10 @@ on:
       - 'assets/catalog/part-*.txt'
   workflow_dispatch:
 
+concurrency:
+  group: product-image-audit-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
