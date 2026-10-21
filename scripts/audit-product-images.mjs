@@ -1,6 +1,7 @@
 import { gunzipSync } from 'node:zlib';
 import { createHash } from 'node:crypto';
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile, readdir, unlink } from 'node:fs/promises';
+import sharp from 'sharp';
 import path from 'node:path';
 
 const root = process.cwd();
@@ -74,6 +75,7 @@ async function main() {
   const catalog = JSON.parse(gunzipSync(Buffer.from(parts.join('').replace(/\s+/g, ''), 'base64')).toString('utf8'));
   const products = Array.isArray(catalog.products) ? catalog.products : [];
   await mkdir(outputDir, { recursive: true });
+  for (const name of await readdir(outputDir)) if (/\.(png|jpe?g|webp|gif|avif)$/i.test(name)) await unlink(path.join(outputDir, name));
   const cache = new Map();
   const contentHashes = new Map();
   const hosted = {};
@@ -81,6 +83,7 @@ async function main() {
   let totalUrls = 0, working = 0, broken = 0, duplicates = 0, unmatched = 0, noImage = 0;
   for (const product of products) {
     const urls = candidates(product);
+    const safeToAssociate = !product.identityWarning && Boolean(product.id) && Boolean(product.url);
     totalUrls += urls.length;
     if (!urls.length) noImage++;
     if (product.identityWarning) unmatched++;
@@ -90,37 +93,57 @@ async function main() {
       if (!result) {
         try {
           const image = await fetchImage(item.url);
-          const digest = hash(image.buffer, 64);
-          let localPath = contentHashes.get(digest);
-          if (localPath) duplicates++;
-          else {
-            const filename = slug(product.id || product.name) + '-' + hash(item.url) + '-' + digest.slice(0, 8) + '.' + image.ext;
-            localPath = 'assets/product-images/' + filename;
-            await writeFile(path.join(root, localPath), image.buffer);
-            contentHashes.set(digest, localPath);
-          }
-          result = { finalUrl: image.finalUrl, localPath, digest, bytes: image.buffer.length, type: image.type };
+          result = { ...image, digest: hash(image.buffer, 64), localPath: null };
           cache.set(item.url, result);
         } catch (error) {
           result = { error: String(error && error.message || error) };
           cache.set(item.url, result);
         }
-      } else if (result.digest) duplicates++;
-      if (result.error) broken++;
-      else {
-        working++;
-        verified.push({ sourceUrl: item.url, finalUrl: result.finalUrl, localPath: result.localPath, label: item.label, field: item.field, contentType: result.type, bytes: result.bytes, sha256: result.digest });
+      } else if (result.digest) {
+        duplicates++;
       }
+      if (result.error) {
+        broken++;
+        continue;
+      }
+      working++;
+      let localPath = null;
+      if (safeToAssociate) {
+        localPath = contentHashes.get(result.digest) || result.localPath || null;
+        if (!localPath) {
+          const filename = slug(product.id || product.name) + '-' + hash(item.url) + '-' + result.digest.slice(0, 8) + '.webp';
+          localPath = 'assets/product-images/' + filename;
+          const optimized = await sharp(result.buffer)
+            .rotate()
+            .resize({ width: 1200, height: 1500, fit: 'inside', withoutEnlargement: true })
+            .webp({ quality: 80, effort: 4 })
+            .toBuffer();
+          await writeFile(path.join(root, localPath), optimized);
+          contentHashes.set(result.digest, localPath);
+          result.localPath = localPath;
+          result.optimizedBytes = optimized.length;
+        } else {
+          duplicates++;
+        }
+      }
+      verified.push({
+        sourceUrl: item.url, finalUrl: result.finalUrl, localPath: localPath,
+        label: item.label, field: item.field, contentType: result.type,
+        sourceBytes: result.buffer.length, optimizedBytes: result.optimizedBytes || null,
+        sha256: result.digest
+      });
     }
-    const canAssociate = !product.identityWarning && Boolean(product.id) && Boolean(product.url);
-    if (canAssociate && verified.length) {
-      hosted[product.id] = {
-        primary: (verified.find(item => item.field === 'image') || verified[0]).localPath,
-        variants: verified,
-        canonicalProductUrl: product.url,
-        productName: product.name,
-        identityVerified: true
-      };
+    if (safeToAssociate && verified.length) {
+      const withLocal = verified.filter(item => item.localPath);
+      if (withLocal.length) {
+        hosted[product.id] = {
+          primary: (withLocal.find(item => item.field === 'image') || withLocal[0]).localPath,
+          variants: withLocal,
+          canonicalProductUrl: product.url,
+          productName: product.name,
+          identityVerified: true
+        };
+      }
     }
     rows.push({
       id: product.id || null, name: product.name || null, canonicalProductUrl: product.url || null,
@@ -136,6 +159,7 @@ async function main() {
     brokenImageUrls: broken, duplicateImageContentOrUrls: duplicates, productsWithoutImageUrls: noImage,
     productsWithIdentityWarnings: unmatched, productsWithVerifiedHostedImages: Object.keys(hosted).length,
     hostedImageFiles: [...new Set(Object.values(hosted).flatMap(product => product.variants.map(item => item.localPath)))].length,
+    optimizedImageBytes: (await readdir(outputDir)).reduce((sum, name) => sum, 0),
     products: rows
   };
   await writeFile(manifestPath, JSON.stringify({ generatedAt: report.generatedAt, products: hosted }, null, 2) + '\n');
