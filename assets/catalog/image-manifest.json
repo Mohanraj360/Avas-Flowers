@@ -1,0 +1,1050 @@
+{
+  "generatedAt": "2026-10-21T14:24:23.404Z",
+  "products": {
+    "autumn-celebration-bouquet": {
+      "primary": "assets/product-images/autumn-celebration-bouquet-2e5834678e15-51a904a9.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-autumn-celebration-bouquet-large-14462.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-autumn-celebration-bouquet-large-14462.png",
+          "localPath": "assets/product-images/autumn-celebration-bouquet-2e5834678e15-51a904a9.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1768453,
+          "optimizedBytes": 137790,
+          "sha256": "51a904a91fb5ab660ad743f577fc065152837776a950d5da4209b7bbfca2b8b6"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/autumn-celebration-bouquet",
+      "productName": "Sunshine Celebration Bouquet",
+      "identityVerified": true
+    },
+    "shes-got-style-shes-got-grace": {
+      "primary": "assets/product-images/shes-got-style-shes-got-grace-22d67a79e339-e79dfcc6.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-shes-got-style-shes-got-grace-large-21772.webp",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-shes-got-style-shes-got-grace-large-21772.webp",
+          "localPath": "assets/product-images/shes-got-style-shes-got-grace-22d67a79e339-e79dfcc6.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/webp",
+          "sourceBytes": 104444,
+          "optimizedBytes": 98946,
+          "sha256": "e79dfcc67b57ea81710d7aff149da1bcce8c0f4e85eb21ae751c125ab2386d81"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/shes-got-style-shes-got-grace",
+      "productName": "She's Got Style, She's Got Grace",
+      "identityVerified": true
+    },
+    "my-sun-moon-and-stars-bouquet": {
+      "primary": "assets/product-images/my-sun-moon-and-stars-bouquet-aa8bde15f1b6-ecdf5186.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-my-sun-moon-and-stars-bouquet-large-21802.webp",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-my-sun-moon-and-stars-bouquet-large-21802.webp",
+          "localPath": "assets/product-images/my-sun-moon-and-stars-bouquet-aa8bde15f1b6-ecdf5186.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/webp",
+          "sourceBytes": 71316,
+          "optimizedBytes": 66970,
+          "sha256": "ecdf51865a7a7b0eac41620e536c9aa8c1c9156a5fd954fef1024ee51c4e778f"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/my-sun-moon-and-stars-bouquet",
+      "productName": "My Sun, Moon and Stars",
+      "identityVerified": true
+    },
+    "dozen-long-stemmed-roses": {
+      "primary": "assets/product-images/dozen-long-stemmed-roses-e4c8a67f7902-718a0bfb.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-dozen-long-stemmed-roses-12-stems---with-vase-11431.webp",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-dozen-long-stemmed-roses-12-stems---with-vase-11431.webp",
+          "localPath": "assets/product-images/dozen-long-stemmed-roses-e4c8a67f7902-718a0bfb.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/webp",
+          "sourceBytes": 93380,
+          "optimizedBytes": 85320,
+          "sha256": "718a0bfb72d92f9038ca19177fa94a5ef3015eeff34c8dcd653b9e7f8549cf91"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/dozen-long-stemmed-roses",
+      "productName": "One Dozen Long Stemmed Roses",
+      "identityVerified": true
+    },
+    "endless-summer-sunflower-bouquet": {
+      "primary": "assets/product-images/endless-summer-sunflower-bouquet-b8297998e0db-0333344d.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-endless-summer-sunflower-bouquet-10-stems-25191.webp",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-endless-summer-sunflower-bouquet-10-stems-25191.webp",
+          "localPath": "assets/product-images/endless-summer-sunflower-bouquet-b8297998e0db-0333344d.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/webp",
+          "sourceBytes": 98782,
+          "optimizedBytes": 92696,
+          "sha256": "0333344d34a622123eae06c3da5cf2529c38a0c8e153d62030546361235c3e7a"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/endless-summer-sunflower-bouquet",
+      "productName": "Endless Summer Sunflower Bouquet",
+      "identityVerified": true
+    },
+    "dreaming-of-tuscany-bouquet": {
+      "primary": "assets/product-images/dreaming-of-tuscany-bouquet-397805c4a818-50f8ad26.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-dreaming-of-tuscany-bouquet-large-21952.webp",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-dreaming-of-tuscany-bouquet-large-21952.webp",
+          "localPath": "assets/product-images/dreaming-of-tuscany-bouquet-397805c4a818-50f8ad26.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/webp",
+          "sourceBytes": 104676,
+          "optimizedBytes": 99376,
+          "sha256": "50f8ad2616e0f07a5d82b65f85c34dda4611323308c815b4c6b03049d9445b37"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/dreaming-of-tuscany-bouquet",
+      "productName": "Dreaming of Tuscany Bouquet",
+      "identityVerified": true
+    },
+    "dozen-assorted-roses": {
+      "primary": "assets/product-images/dozen-assorted-roses-fa46e1ef6ffd-8b5ac170.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-dozen-assorted-roses-12-stems---with-vase-11791.webp",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-dozen-assorted-roses-12-stems---with-vase-11791.webp",
+          "localPath": "assets/product-images/dozen-assorted-roses-fa46e1ef6ffd-8b5ac170.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/webp",
+          "sourceBytes": 92458,
+          "optimizedBytes": 86582,
+          "sha256": "8b5ac1709fa2a36cb3e159946c07b93f567ef22e6fed9a5a4f02a0208856718f"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/dozen-assorted-roses",
+      "productName": "Dozen Assorted Roses",
+      "identityVerified": true
+    },
+    "peace-lily-plant": {
+      "primary": "assets/product-images/peace-lily-plant-5e5eef9beab8-23db8c3c.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-peace-lily-plant-large-10222.webp",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-peace-lily-plant-large-10222.webp",
+          "localPath": "assets/product-images/peace-lily-plant-5e5eef9beab8-23db8c3c.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/webp",
+          "sourceBytes": 90250,
+          "optimizedBytes": 84890,
+          "sha256": "23db8c3c7bd0d8b08785febda69b7a60344814d3cddef7ec3671875f13702cad"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/peace-lily-plant",
+      "productName": "Peace Lily Plant",
+      "identityVerified": true
+    },
+    "jumping-for-joy-bouquet": {
+      "primary": "assets/product-images/jumping-for-joy-bouquet-19964672767a-7afb969a.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-jumping-for-joy-bouquet-medium-13411.webp",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-jumping-for-joy-bouquet-medium-13411.webp",
+          "localPath": "assets/product-images/jumping-for-joy-bouquet-19964672767a-7afb969a.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/webp",
+          "sourceBytes": 98974,
+          "optimizedBytes": 93772,
+          "sha256": "7afb969a7b356b0ea6fea37890956856715d22232af74c7135df7fcc14953628"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/jumping-for-joy-bouquet",
+      "productName": "Jumping for Joy Bouquet",
+      "identityVerified": true
+    },
+    "rose-and-lily-anniversary-bouquet": {
+      "primary": "assets/product-images/rose-and-lily-anniversary-bouquet-73ed57abc397-29e9f816.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-rose-and-lily-anniversary-bouquet-medium-10711.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-rose-and-lily-anniversary-bouquet-medium-10711.png",
+          "localPath": "assets/product-images/rose-and-lily-anniversary-bouquet-73ed57abc397-29e9f816.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1640455,
+          "optimizedBytes": 110558,
+          "sha256": "29e9f816773fa91b85ecfe8b7215b0f9b5c53aa2fdc5ffd816071c79a9b6aea4"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/rose-and-lily-anniversary-bouquet",
+      "productName": "Pink Rose and Lily Bouquet",
+      "identityVerified": true
+    },
+    "everlasting-soothing-lavender-bouquet": {
+      "primary": "assets/product-images/everlasting-soothing-lavender-bouquet-f066ca674769-37572071.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-everlasting-soothing-lavender-bouquet-as-shown-10901.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-everlasting-soothing-lavender-bouquet-as-shown-10901.png",
+          "localPath": "assets/product-images/everlasting-soothing-lavender-bouquet-f066ca674769-37572071.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1562661,
+          "optimizedBytes": 92290,
+          "sha256": "3757207197e9a24877bbfb1cd4e92414b7ce0fd572fa7b57674047e4dee907b7"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/everlasting-soothing-lavender-bouquet",
+      "productName": "Everlasting Soothing Lavender",
+      "identityVerified": true
+    },
+    "get-well-balloon-bunch": {
+      "primary": "assets/product-images/get-well-balloon-bunch-d37580f34e1b-527102dc.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-get-well-balloon-bunch-12-mylar-balloons-11622.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-get-well-balloon-bunch-12-mylar-balloons-11622.png",
+          "localPath": "assets/product-images/get-well-balloon-bunch-d37580f34e1b-527102dc.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1847644,
+          "optimizedBytes": 128682,
+          "sha256": "527102dcbd1001f9688a302e3a858ba02beafc42eb93331934f20202bbaba86b"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/get-well-balloon-bunch",
+      "productName": "Get Well Balloon Bunch",
+      "identityVerified": true
+    },
+    "orchid-planter": {
+      "primary": "assets/product-images/orchid-planter-ae49b67964dd-16058ff2.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-orchid-planter.webp",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-orchid-planter.webp",
+          "localPath": "assets/product-images/orchid-planter-ae49b67964dd-16058ff2.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/webp",
+          "sourceBytes": 74670,
+          "optimizedBytes": 69770,
+          "sha256": "16058ff23aac0f856806ea03ad8bc016063adf8c8d46135b07631c000f4f53dd"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/orchid-planter",
+      "productName": "Orchid Planter",
+      "identityVerified": true
+    },
+    "white-rose-sympathy-bouquet": {
+      "primary": "assets/product-images/white-rose-sympathy-bouquet-b07b85e3e3f0-240770fc.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-white-rose-sympathy-bouquet.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-white-rose-sympathy-bouquet.png",
+          "localPath": "assets/product-images/white-rose-sympathy-bouquet-b07b85e3e3f0-240770fc.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1462060,
+          "optimizedBytes": 75358,
+          "sha256": "240770fc5a7d6516d7431e492e9df1accc99ff528ba62ba22b50a94cff46d39a"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/white-rose-sympathy-bouquet",
+      "productName": "White Sympathy Roses",
+      "identityVerified": true
+    },
+    "red-white-you": {
+      "primary": "assets/product-images/red-white-you-9817529f07ad-769ac7e3.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-red-white-you-large-23992.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-red-white-you-large-23992.png",
+          "localPath": "assets/product-images/red-white-you-9817529f07ad-769ac7e3.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1477669,
+          "optimizedBytes": 101632,
+          "sha256": "769ac7e33c33bcfbaa82491ffa4791d6b7900ac6f0cbca6726d6baf7ba796864"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/red-white-you",
+      "productName": "Red White & You",
+      "identityVerified": true
+    },
+    "spring-tulips": {
+      "primary": "assets/product-images/spring-tulips-3f07b31e9fcf-2c284180.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-spring-tulips-20-stems-16531.webp",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-spring-tulips-20-stems-16531.webp",
+          "localPath": "assets/product-images/spring-tulips-3f07b31e9fcf-2c284180.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/webp",
+          "sourceBytes": 67878,
+          "optimizedBytes": 63332,
+          "sha256": "2c284180152642797bde98a32e9f787222fe3f3aad1a0682a881c4c0b776774c"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/spring-tulips",
+      "productName": "Spring Tulips Bouquet",
+      "identityVerified": true
+    },
+    "congratulations-balloon-bouquet": {
+      "primary": "assets/product-images/congratulations-balloon-bouquet-8b8644c5b6d5-a4dfbb5b.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-congratulations-balloon-bouquet-12-mylar-balloons-14991.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-congratulations-balloon-bouquet-12-mylar-balloons-14991.png",
+          "localPath": "assets/product-images/congratulations-balloon-bouquet-8b8644c5b6d5-a4dfbb5b.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1782906,
+          "optimizedBytes": 160778,
+          "sha256": "a4dfbb5b27f9d71f2c3ecf4a993e8c697453c079e5393dbb406321f4dc9531f6"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/congratulations-balloon-bouquet",
+      "productName": "Congratulations Balloon Bouquet",
+      "identityVerified": true
+    },
+    "symphony-fall-bouquet": {
+      "primary": "assets/product-images/symphony-fall-bouquet-fcb3fd7484c6-4e8791d1.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-symphony-fall-bouquet-large-14602.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-symphony-fall-bouquet-large-14602.png",
+          "localPath": "assets/product-images/symphony-fall-bouquet-fcb3fd7484c6-4e8791d1.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1743670,
+          "optimizedBytes": 135312,
+          "sha256": "4e8791d174989ceae3e35e4442f92d46e60447b587a4d4f00db90e037cc5501f"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/symphony-fall-bouquet",
+      "productName": "Jeweled Symphony Bouquet",
+      "identityVerified": true
+    },
+    "bountiful-pumpkin-bouquet": {
+      "primary": "assets/product-images/bountiful-pumpkin-bouquet-4e674335e1d7-dbe8a14d.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-bountiful-pumpkin-bouquet-deluxe-14481.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-bountiful-pumpkin-bouquet-deluxe-14481.png",
+          "localPath": "assets/product-images/bountiful-pumpkin-bouquet-4e674335e1d7-dbe8a14d.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1667927,
+          "optimizedBytes": 104198,
+          "sha256": "dbe8a14d74622ecf6fad839c55e2668400b8de045c147bdff7e0209e941f6498"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/bountiful-pumpkin-bouquet",
+      "productName": "Bountiful Pumpkin Bouquet",
+      "identityVerified": true
+    },
+    "autumn-mum-plant": {
+      "primary": "assets/product-images/autumn-mum-plant-ff7b3003c6a8-8102938b.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-autumn-mum-plant.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-autumn-mum-plant.png",
+          "localPath": "assets/product-images/autumn-mum-plant-ff7b3003c6a8-8102938b.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1599364,
+          "optimizedBytes": 87236,
+          "sha256": "8102938b310dc5d22f4aae5ddddd8b436316bbdaff38515ad49dd4ffc1dd6d53"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/autumn-mum-plant",
+      "productName": "Autumn Mum Plant",
+      "identityVerified": true
+    },
+    "fabulous-fall-roses": {
+      "primary": "assets/product-images/fabulous-fall-roses-83ed164b56cf-deb17a2f.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-fabulous-fall-roses-24-stems-16911.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-fabulous-fall-roses-24-stems-16911.png",
+          "localPath": "assets/product-images/fabulous-fall-roses-83ed164b56cf-deb17a2f.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1649276,
+          "optimizedBytes": 71976,
+          "sha256": "deb17a2f83226d8669b85e5d5ce564ac9d267308387b9c8cd90964a504c90b6d"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/fabulous-fall-roses",
+      "productName": "Fabulous Fall Roses",
+      "identityVerified": true
+    },
+    "autumn-garden": {
+      "primary": "assets/product-images/autumn-garden-870118715abe-789baf89.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-autumn-garden-deluxe-25831.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-autumn-garden-deluxe-25831.png",
+          "localPath": "assets/product-images/autumn-garden-870118715abe-789baf89.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1624028,
+          "optimizedBytes": 100966,
+          "sha256": "789baf89b62458ef805c42a6a7b72962be6c2b4e20df491cf0762bae129039d6"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/autumn-garden",
+      "productName": "Autumn Garden",
+      "identityVerified": true
+    },
+    "country-pumpkin-bouquet": {
+      "primary": "assets/product-images/country-pumpkin-bouquet-fde3a7158db7-8f532654.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-country-pumpkin-bouquet-deluxe-16991.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-country-pumpkin-bouquet-deluxe-16991.png",
+          "localPath": "assets/product-images/country-pumpkin-bouquet-fde3a7158db7-8f532654.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1668211,
+          "optimizedBytes": 90910,
+          "sha256": "8f532654046d8350b0e0c6ab2fc91eaa3dae9119095ecd2db659d949096330fa"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/country-pumpkin-bouquet",
+      "productName": "Country Pumpkin Bouquet",
+      "identityVerified": true
+    },
+    "fall-expressions-arrangement": {
+      "primary": "assets/product-images/fall-expressions-arrangement-21e0314b8390-07e95633.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-fall-expressions-arrangement-large-14522.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-fall-expressions-arrangement-large-14522.png",
+          "localPath": "assets/product-images/fall-expressions-arrangement-21e0314b8390-07e95633.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1654874,
+          "optimizedBytes": 119474,
+          "sha256": "07e95633825afefcf3a3d9d46d1b3fcdc4efb713be0b96cec79bd0ec254bd8ed"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/fall-expressions-arrangement",
+      "productName": "Fall Expressions Arrangement",
+      "identityVerified": true
+    },
+    "fall-roses-and-calla-lily-bouquet": {
+      "primary": "assets/product-images/fall-roses-and-calla-lily-bouquet-c1de2a02652e-14d8eb19.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-fall-roses-and-calla-lily-bouquet.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-fall-roses-and-calla-lily-bouquet.png",
+          "localPath": "assets/product-images/fall-roses-and-calla-lily-bouquet-c1de2a02652e-14d8eb19.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 2088687,
+          "optimizedBytes": 118200,
+          "sha256": "14d8eb1934efc49a4d1a0fa6e9ad0e759aa6d832183bceda32341b90a9ca74f5"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/fall-roses-and-calla-lily-bouquet",
+      "productName": "Fall Roses and Calla Lily Bouquet",
+      "identityVerified": true
+    },
+    "copper-callings-bouquet": {
+      "primary": "assets/product-images/copper-callings-bouquet-eca891b59349-543fc9cc.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-copper-callings-bouquet-medium-25441.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-copper-callings-bouquet-medium-25441.png",
+          "localPath": "assets/product-images/copper-callings-bouquet-eca891b59349-543fc9cc.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1487023,
+          "optimizedBytes": 92036,
+          "sha256": "543fc9ccc83dc76c1729cb78eef6a96cd0b2beade5c8f985a4c27a90806fbf9b"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/copper-callings-bouquet",
+      "productName": "Copper Callings Bouquet",
+      "identityVerified": true
+    },
+    "bronze-mum-plant": {
+      "primary": "assets/product-images/bronze-mum-plant-ac4293daea71-5e8de613.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-bronze-mum-plant.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-bronze-mum-plant.png",
+          "localPath": "assets/product-images/bronze-mum-plant-ac4293daea71-5e8de613.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1543744,
+          "optimizedBytes": 89906,
+          "sha256": "5e8de613c19f7b1218ba6a79151aafa59e71781697cc10123e201fdfa3a10b04"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/bronze-mum-plant",
+      "productName": "Bronze Mum Plant",
+      "identityVerified": true
+    },
+    "autumn-sunset-bouquet": {
+      "primary": "assets/product-images/autumn-sunset-bouquet-f1b7b15d8e26-ccdd26f9.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-autumn-sunset-bouquet-medium-11461.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-autumn-sunset-bouquet-medium-11461.png",
+          "localPath": "assets/product-images/autumn-sunset-bouquet-f1b7b15d8e26-ccdd26f9.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1381119,
+          "optimizedBytes": 58344,
+          "sha256": "ccdd26f962ec86322701ab1193d0c66a33ef19acbb804e8b59a432a1cf8a5236"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/autumn-sunset-bouquet",
+      "productName": "Orange Sunset Bouquet",
+      "identityVerified": true
+    },
+    "share-the-health-basket": {
+      "primary": "assets/product-images/share-the-health-basket-8cf81404050c-e264aa52.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-share-the-health-basket.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-share-the-health-basket.png",
+          "localPath": "assets/product-images/share-the-health-basket-8cf81404050c-e264aa52.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 672918,
+          "optimizedBytes": 64766,
+          "sha256": "e264aa521d161109a48d844673cfb15953d6e0a6ac49d879fa9415be0e9495aa"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/share-the-health-basket",
+      "productName": "Share the Health Basket",
+      "identityVerified": true
+    },
+    "white-sympathy-spray": {
+      "primary": "assets/product-images/white-sympathy-spray-f5feb5c5721a-bf9b9e30.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-white-sympathy-spray-medium-18421.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-white-sympathy-spray-medium-18421.png",
+          "localPath": "assets/product-images/white-sympathy-spray-f5feb5c5721a-bf9b9e30.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1825452,
+          "optimizedBytes": 139606,
+          "sha256": "bf9b9e30693ceff6ce591d9a503b6f824836503bf5f5971e2baa6442cafb8590"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/white-sympathy-spray",
+      "productName": "White Sympathy Spray",
+      "identityVerified": true
+    },
+    "white-sympathy-standing-basket": {
+      "primary": "assets/product-images/white-sympathy-standing-basket-4ea3e21dd269-570bfc57.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-white-sympathy-standing-basket.jpg",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-white-sympathy-standing-basket.jpg",
+          "localPath": "assets/product-images/white-sympathy-standing-basket-4ea3e21dd269-570bfc57.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/jpeg",
+          "sourceBytes": 762061,
+          "optimizedBytes": 146302,
+          "sha256": "570bfc5787da69f25935a2ee179349e4db8e735d916851c57775d0841aab1d97"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/white-sympathy-standing-basket",
+      "productName": "White Sympathy Standing Basket",
+      "identityVerified": true
+    },
+    "red-white-sympathy-spray": {
+      "primary": "assets/product-images/red-white-sympathy-spray-f8de29c6f073-286c6683.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-red-white-sympathy-spray-as-shown-18511.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-red-white-sympathy-spray-as-shown-18511.png",
+          "localPath": "assets/product-images/red-white-sympathy-spray-f8de29c6f073-286c6683.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1704477,
+          "optimizedBytes": 127402,
+          "sha256": "286c6683f6579b31e7927db947e0a5a037303b2b7b5ea76d1cf49db263cc34dc"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/red-white-sympathy-spray",
+      "productName": "Red & White Sympathy Spray",
+      "identityVerified": true
+    },
+    "zen-orchid-sympathy-plant": {
+      "primary": "assets/product-images/zen-orchid-sympathy-plant-0e6530e5e891-9a67b39e.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-zen-orchid-sympathy-plant.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-zen-orchid-sympathy-plant.png",
+          "localPath": "assets/product-images/zen-orchid-sympathy-plant-0e6530e5e891-9a67b39e.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 535901,
+          "optimizedBytes": 46670,
+          "sha256": "9a67b39e1c2a16b7da16ef3e2ffec6a4e2c296e18fb151f72867956fbdb6fc66"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/zen-orchid-sympathy-plant",
+      "productName": "Zen Orchid Sympathy Plant",
+      "identityVerified": true
+    },
+    "blue-sympathy-spray": {
+      "primary": "assets/product-images/blue-sympathy-spray-190cb3728976-5ad8488d.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-blue-sympathy-spray-medium-18531.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-blue-sympathy-spray-medium-18531.png",
+          "localPath": "assets/product-images/blue-sympathy-spray-190cb3728976-5ad8488d.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1778507,
+          "optimizedBytes": 143706,
+          "sha256": "5ad8488d92d43f6031b424aee7769d5e43a38f3eab7d1750b1ed4f7520c60f3d"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/blue-sympathy-spray",
+      "productName": "Blue Sympathy Spray",
+      "identityVerified": true
+    },
+    "pink-white-sympathy-spray": {
+      "primary": "assets/product-images/pink-white-sympathy-spray-3a7ccfe200a2-7945b805.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-pink-white-sympathy-spray-medium-18521.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-pink-white-sympathy-spray-medium-18521.png",
+          "localPath": "assets/product-images/pink-white-sympathy-spray-3a7ccfe200a2-7945b805.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1846512,
+          "optimizedBytes": 146048,
+          "sha256": "7945b80552ef577d730841c6b3c02d8de892a329ddfa05bd377023dce30398a3"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/pink-white-sympathy-spray",
+      "productName": "Pink & White Sympathy Spray",
+      "identityVerified": true
+    },
+    "red-sympathy-fireside-basket": {
+      "primary": "assets/product-images/red-sympathy-fireside-basket-1778c88d0ad8-41c7ac9d.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-red-sympathy-fireside-basket.jpg",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-red-sympathy-fireside-basket.jpg",
+          "localPath": "assets/product-images/red-sympathy-fireside-basket-1778c88d0ad8-41c7ac9d.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/jpeg",
+          "sourceBytes": 240293,
+          "optimizedBytes": 181088,
+          "sha256": "41c7ac9d01002ef1cc7fdf8a2841230b9afea22865e72d67f721421467604066"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/red-sympathy-fireside-basket",
+      "productName": "Red Sympathy Fireside Basket",
+      "identityVerified": true
+    },
+    "blue-sympathy-standing-basket": {
+      "primary": "assets/product-images/blue-sympathy-standing-basket-9dc2d7b3821e-4f531389.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-blue-sympathy-standing-basket.jpg",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-blue-sympathy-standing-basket.jpg",
+          "localPath": "assets/product-images/blue-sympathy-standing-basket-9dc2d7b3821e-4f531389.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/jpeg",
+          "sourceBytes": 955960,
+          "optimizedBytes": 182000,
+          "sha256": "4f53138988d4ceb7d2dd221fb55067e226c43c3bce835eed62223d54a0f628e6"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/blue-sympathy-standing-basket",
+      "productName": "Blue Sympathy Standing Basket",
+      "identityVerified": true
+    },
+    "red-sympathy-heart-wreath": {
+      "primary": "assets/product-images/red-sympathy-heart-wreath-22583d2c8021-1f2ab934.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-red-sympathy-heart-wreath.jpg",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-red-sympathy-heart-wreath.jpg",
+          "localPath": "assets/product-images/red-sympathy-heart-wreath-22583d2c8021-1f2ab934.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/jpeg",
+          "sourceBytes": 107014,
+          "optimizedBytes": 93720,
+          "sha256": "1f2ab934ac8d6deef6b4f542d4dc5bddd8753595c750e9d2a8ca03102c20335d"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/red-sympathy-heart-wreath",
+      "productName": "Red Sympathy Heart Wreath",
+      "identityVerified": true
+    },
+    "graceful-blessings-basket": {
+      "primary": "assets/product-images/graceful-blessings-basket-f1b14ddfd0c9-0bf7b974.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-graceful-blessings-basket.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-graceful-blessings-basket.png",
+          "localPath": "assets/product-images/graceful-blessings-basket-f1b14ddfd0c9-0bf7b974.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 555218,
+          "optimizedBytes": 45268,
+          "sha256": "0bf7b974bc00ad816c2d8207100823cc20c76602029459efa50bcf6a7fc3a7d6"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/graceful-blessings-basket",
+      "productName": "Graceful Blessings Basket",
+      "identityVerified": true
+    },
+    "white-sympathy-basket": {
+      "primary": "assets/product-images/white-sympathy-basket-ef4a73f9d5e7-748edd5f.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-white-sympathy-basket.jpg",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-white-sympathy-basket.jpg",
+          "localPath": "assets/product-images/white-sympathy-basket-ef4a73f9d5e7-748edd5f.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/jpeg",
+          "sourceBytes": 977975,
+          "optimizedBytes": 211160,
+          "sha256": "748edd5f32644cf912aba4070ca44d1e6c3bd638fa43e8b213de4e4770ba0876"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/white-sympathy-basket",
+      "productName": "White Sympathy Basket",
+      "identityVerified": true
+    },
+    "red-sympathy-cross": {
+      "primary": "assets/product-images/red-sympathy-cross-9b7322fe26ad-b78a94fa.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-red-sympathy-cross.jpg",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-red-sympathy-cross.jpg",
+          "localPath": "assets/product-images/red-sympathy-cross-9b7322fe26ad-b78a94fa.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/jpeg",
+          "sourceBytes": 52817,
+          "optimizedBytes": 41970,
+          "sha256": "b78a94fa65e35c70921dfc734daa79944d5e994c85f23eb0f4b189e8692ebcb8"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/red-sympathy-cross",
+      "productName": "Red Sympathy Cross",
+      "identityVerified": true
+    },
+    "pastel-sympathy-basket": {
+      "primary": "assets/product-images/pastel-sympathy-basket-c1335c4a6f93-17fbc41e.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-pastel-sympathy-basket.jpg",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-pastel-sympathy-basket.jpg",
+          "localPath": "assets/product-images/pastel-sympathy-basket-c1335c4a6f93-17fbc41e.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/jpeg",
+          "sourceBytes": 196254,
+          "optimizedBytes": 182488,
+          "sha256": "17fbc41e1b5b784fc36e661071050c47f64f76c4f3e4aedb2d00bc32c199c09c"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/pastel-sympathy-basket",
+      "productName": "Pastel Sympathy Basket",
+      "identityVerified": true
+    },
+    "spathiphyllum-in-a-basket": {
+      "primary": "assets/product-images/spathiphyllum-in-a-basket-dc329df69b6e-751509d9.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-spathiphyllum-in-a-basket.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-spathiphyllum-in-a-basket.png",
+          "localPath": "assets/product-images/spathiphyllum-in-a-basket-dc329df69b6e-751509d9.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1484300,
+          "optimizedBytes": 115594,
+          "sha256": "751509d982a9660c271b06c3b447cc7f6ddd8e3848af03e23a731cf70ca78c1b"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/spathiphyllum-in-a-basket",
+      "productName": "Spathiphyllum in a Basket",
+      "identityVerified": true
+    },
+    "lavender-sympathy-standing-basket": {
+      "primary": "assets/product-images/lavender-sympathy-standing-basket-61fb85faa3c4-780991b7.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-lavender-sympathy-standing-basket.jpg",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-lavender-sympathy-standing-basket.jpg",
+          "localPath": "assets/product-images/lavender-sympathy-standing-basket-61fb85faa3c4-780991b7.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/jpeg",
+          "sourceBytes": 1194392,
+          "optimizedBytes": 250218,
+          "sha256": "780991b7f8332350f95f767e750bbe4a863dd9f9ae3b88c61012e396955f58c9"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/lavender-sympathy-standing-basket",
+      "productName": "Lavender Sympathy Standing Basket",
+      "identityVerified": true
+    },
+    "european-dish-garden": {
+      "primary": "assets/product-images/european-dish-garden-5f40cbd1c5a4-22f44e08.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-european-dish-garden-large-14682.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-european-dish-garden-large-14682.png",
+          "localPath": "assets/product-images/european-dish-garden-5f40cbd1c5a4-22f44e08.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1505255,
+          "optimizedBytes": 120196,
+          "sha256": "22f44e08687b53d9ba10afea20404f2cfa746085288dfe1d82d48ed7f9392a18"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/european-dish-garden",
+      "productName": "European Dish Garden",
+      "identityVerified": true
+    },
+    "white-sympathy-casket-spray": {
+      "primary": "assets/product-images/white-sympathy-casket-spray-d32737e72b95-b244a539.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-white-sympathy-casket-spray.jpg",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-white-sympathy-casket-spray.jpg",
+          "localPath": "assets/product-images/white-sympathy-casket-spray-d32737e72b95-b244a539.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/jpeg",
+          "sourceBytes": 65760,
+          "optimizedBytes": 59164,
+          "sha256": "b244a53917dd71c64cd178b3aa8cbfd645f4489ff0141fc9ec39f0e495341c1c"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/white-sympathy-casket-spray",
+      "productName": "White Sympathy Casket Spray",
+      "identityVerified": true
+    },
+    "festive-birthday-bouquet": {
+      "primary": "assets/product-images/festive-birthday-bouquet-b18c7ec19214-0c796a8d.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-festive-birthday-bouquet-large-25502.jpg",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-festive-birthday-bouquet-large-25502.jpg",
+          "localPath": "assets/product-images/festive-birthday-bouquet-b18c7ec19214-0c796a8d.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/jpeg",
+          "sourceBytes": 276169,
+          "optimizedBytes": 78960,
+          "sha256": "0c796a8d43014c2a14a0bfb84fa295947599a719e31ebbf9a46341e44f90e093"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/festive-birthday-bouquet",
+      "productName": "Festive Birthday Bouquet",
+      "identityVerified": true
+    },
+    "birthday-charm-bouquet": {
+      "primary": "assets/product-images/birthday-charm-bouquet-b086bc9c8680-ea5aa10d.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-birthday-charm-bouquet-large-12212.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-birthday-charm-bouquet-large-12212.png",
+          "localPath": "assets/product-images/birthday-charm-bouquet-b086bc9c8680-ea5aa10d.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1681686,
+          "optimizedBytes": 108478,
+          "sha256": "ea5aa10db256dc3f304badb2c3515ec0ef3636469b81c7946c06280067cf9fbf"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/birthday-charm-bouquet",
+      "productName": "Birthday Charm Bouquet",
+      "identityVerified": true
+    },
+    "pastel-grace-and-wonder-bouquet": {
+      "primary": "assets/product-images/pastel-grace-and-wonder-bouquet-cc1ba81c4142-856e3848.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-pastel-grace-and-wonder-bouquet-large-13122.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-pastel-grace-and-wonder-bouquet-large-13122.png",
+          "localPath": "assets/product-images/pastel-grace-and-wonder-bouquet-cc1ba81c4142-856e3848.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1716301,
+          "optimizedBytes": 121098,
+          "sha256": "856e3848744d62b5702e04d778321ee36e34f711efd20a7288278b04a2799ada"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/pastel-grace-and-wonder-bouquet",
+      "productName": "Pastel Grace and Wonder",
+      "identityVerified": true
+    },
+    "artists-design-daisy-dreamin": {
+      "primary": "assets/product-images/artists-design-daisy-dreamin-7ce3d2b2dce0-ce61cde0.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-artists-design-daisy-dreamin.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-artists-design-daisy-dreamin.png",
+          "localPath": "assets/product-images/artists-design-daisy-dreamin-7ce3d2b2dce0-ce61cde0.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 908891,
+          "optimizedBytes": 192438,
+          "sha256": "ce61cde08ee3b741a0e0b4176bcffb5138a3e6bbed7b416d8c6ef60421254b8f"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/artists-design-daisy-dreamin",
+      "productName": "Artist's Design: Daisy Dreamin",
+      "identityVerified": true
+    },
+    "get-well-bear-and-balloon-bunch": {
+      "primary": "assets/product-images/get-well-bear-and-balloon-bunch-e45729e006d6-d5b7c428.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-get-well-bear-and-balloon-bunch-bear-and-6-mylar-balloons-10771.webp",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-get-well-bear-and-balloon-bunch-bear-and-6-mylar-balloons-10771.webp",
+          "localPath": "assets/product-images/get-well-bear-and-balloon-bunch-e45729e006d6-d5b7c428.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/webp",
+          "sourceBytes": 142410,
+          "optimizedBytes": 138256,
+          "sha256": "d5b7c428ab8df3bceaae558cd85b3cb017b3c06608226f48d1cfc8f5a251666d"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/get-well-bear-and-balloon-bunch",
+      "productName": "Get Well Bear & Balloon Bunch",
+      "identityVerified": true
+    },
+    "get-well-flower-bouquet": {
+      "primary": "assets/product-images/get-well-flower-bouquet-3ff1a522090b-f75cb0d6.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-get-well-flower-bouquet-large-with-balloon-198482.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-get-well-flower-bouquet-large-with-balloon-198482.png",
+          "localPath": "assets/product-images/get-well-flower-bouquet-3ff1a522090b-f75cb0d6.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1332841,
+          "optimizedBytes": 86098,
+          "sha256": "f75cb0d6ea58a44e606b94aa78ff183762cb420f960e2cf08480c5c77c465a1d"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/get-well-flower-bouquet",
+      "productName": "Get Well Flower Bouquet",
+      "identityVerified": true
+    },
+    "get-well-flower-basket": {
+      "primary": "assets/product-images/get-well-flower-basket-926b37239cd7-af65330c.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-get-well-flower-basket-large-22122.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-get-well-flower-basket-large-22122.png",
+          "localPath": "assets/product-images/get-well-flower-basket-926b37239cd7-af65330c.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1592564,
+          "optimizedBytes": 118816,
+          "sha256": "af65330cf4f8486c38129f806c1fb2e89bc6251c47c1257e051a595eb3f66677"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/get-well-flower-basket",
+      "productName": "Get Well Flower Basket",
+      "identityVerified": true
+    },
+    "gourmet-goodness-kosher-fruit-basket": {
+      "primary": "assets/product-images/gourmet-goodness-kosher-fruit-basket-c993d467ce72-a9fd88d6.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-gourmet-goodness-kosher-fruit-basket.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-gourmet-goodness-kosher-fruit-basket.png",
+          "localPath": "assets/product-images/gourmet-goodness-kosher-fruit-basket-c993d467ce72-a9fd88d6.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 615736,
+          "optimizedBytes": 54486,
+          "sha256": "a9fd88d602b63d8d136b418006ad77cab322fde166096d4227080c45119915c3"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/gourmet-goodness-kosher-fruit-basket",
+      "productName": "Healthful Fruit Basket",
+      "identityVerified": true
+    },
+    "croton-petra-planter": {
+      "primary": "assets/product-images/croton-petra-planter-9b72ead0f699-7996926b.webp",
+      "variants": [
+        {
+          "sourceUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-croton-petra-planter.png",
+          "finalUrl": "https://cdn.avasflowers.net/img/prod_img/avasflowers-croton-petra-planter.png",
+          "localPath": "assets/product-images/croton-petra-planter-9b72ead0f699-7996926b.webp",
+          "label": "primary",
+          "field": "image",
+          "contentType": "image/png",
+          "sourceBytes": 1369241,
+          "optimizedBytes": 110588,
+          "sha256": "7996926b2e1fe3a3da5220191c3812b041fbcff76578d4d0d163df8a76e72dcf"
+        }
+      ],
+      "canonicalProductUrl": "https://www.avasflowers.net/product/croton-petra-planter",
+      "productName": "Croton Petra Planter",
+      "identityVerified": true
+    }
+  }
+}
