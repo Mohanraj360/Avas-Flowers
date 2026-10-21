@@ -1,6 +1,6 @@
 import { gunzipSync } from 'node:zlib';
 import { createHash } from 'node:crypto';
-import { mkdir, readFile, writeFile, readdir, unlink } from 'node:fs/promises';
+import { mkdir, readFile, writeFile, readdir, unlink, stat } from 'node:fs/promises';
 import sharp from 'sharp';
 import path from 'node:path';
 
@@ -159,7 +159,7 @@ async function main() {
     brokenImageUrls: broken, duplicateImageContentOrUrls: duplicates, productsWithoutImageUrls: noImage,
     productsWithIdentityWarnings: unmatched, productsWithVerifiedHostedImages: Object.keys(hosted).length,
     hostedImageFiles: [...new Set(Object.values(hosted).flatMap(product => product.variants.map(item => item.localPath)))].length,
-    optimizedImageBytes: (await readdir(outputDir)).reduce((sum, name) => sum, 0),
+    optimizedImageBytes: (await Promise.all((await readdir(outputDir)).map(async name => (await stat(path.join(outputDir, name))).size))).reduce((sum, size) => sum + size, 0),
     products: rows
   };
   await writeFile(manifestPath, JSON.stringify({ generatedAt: report.generatedAt, products: hosted }, null, 2) + '\n');
