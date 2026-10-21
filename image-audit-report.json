@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T14:20:51.188Z",
+  "generatedAt": "2026-10-21T14:22:42.194Z",
   "sourceCatalogCapturedOn": "2026-10-21",
   "totalProducts": 67,
   "totalImageUrls": 67,
@@ -10,6 +10,7 @@
   "productsWithIdentityWarnings": 12,
   "productsWithVerifiedHostedImages": 55,
   "hostedImageFiles": 55,
+  "optimizedImageBytes": 6023884,
   "products": [
     {
       "id": "sweet-surprises-pastel-bouquet",
