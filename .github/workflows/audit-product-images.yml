@@ -26,6 +26,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Install image optimizer
+        run: npm install --no-save --package-lock=false sharp
       - name: Audit source URLs and download verified image bytes
         run: node scripts/audit-product-images.mjs
       - name: Commit hosted images and audit manifest
