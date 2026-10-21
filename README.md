@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ava's Flowers website redesign concept
 
 Responsive static front-end concept built with HTML, CSS and JavaScript. React/Tailwind was not used so the prototype can run locally without a build tool or dependency installation.
@@ -5,6 +6,13 @@ Responsive static front-end concept built with HTML, CSS and JavaScript. React/T
 ## Run
 
 Use a local static server (required because the site fetches `assets/old-content.json`):
+=======
+# Ava’s Flowers — Website Redesign
+
+Responsive static website redesign concept created from the supplied Ava’s Flowers source document.
+
+## Run locally
+>>>>>>> ac382d9283affccf0d5916d7f0c9b85e80bd1c1b
 
 ```bash
 python -m http.server 8000
@@ -12,6 +20,7 @@ python -m http.server 8000
 
 Open http://localhost:8000.
 
+<<<<<<< HEAD
 ## Files
 - `index.html` — semantic page shell and shared header/footer
 - `styles.css` — responsive styles and CSS design tokens
@@ -47,3 +56,7 @@ Open http://localhost:8000.
 - Current support hours and any call-volume notice wording.
 - Exact original testimonials and real product reviews if not present as readable text in the Word document.
 - Confirm the 22 legal sections against the source document before production deployment.
+=======
+## Deployment
+This is a plain HTML/CSS/JavaScript project intended for Vercel static hosting. It has no build step. Verify product catalog, live inventory, delivery estimates, pricing, policies, and checkout integrations before production use.
+>>>>>>> ac382d9283affccf0d5916d7f0c9b85e80bd1c1b
