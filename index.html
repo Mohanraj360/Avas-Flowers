@@ -1,28 +1,33 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f8f6f0"><meta name="description" content="Ava's Flowers website redesign concept using supplied brand assets and source content.">
-<title>Ava's Flowers — Website Redesign Concept</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8f5ef">
+<meta name="description" content="Thoughtful flowers for life's meaningful moments. Explore the Ava's Flowers collection.">
+<title>Ava's Flowers | Thoughtful flowers, beautifully delivered</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css"><script defer src="app.js"></script>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-<div class="announcement"><span>AVA'S FLOWERS</span><span>Original brand assets · redesign concept · live ordering is not connected</span></div>
-<header class="site-header" id="top">
- <div class="head-main">
-  <button class="icon-button mobile-menu-button" aria-label="Open navigation" aria-expanded="false" aria-controls="category-nav" id="menu-toggle">☰</button>
-  <a href="#home" class="brand" aria-label="Ava's Flowers home"><img src="assets/image1.png" width="280" height="75" alt="Avas Flowers original logo from supplied Word document"></a>
-  <form class="search" id="search-form" role="search"><label class="sr-only" for="site-search">Search flowers</label><input id="site-search" type="search" placeholder="Search flowers, plants, occasions"><button aria-label="Search">Search</button></form>
-  <div class="head-actions"><a href="#track">Track order</a><a href="#help">Need help?</a><button class="cart-link" id="cart-open" aria-label="Open cart">Cart <span id="cart-count">0</span></button></div>
- </div>
- <nav class="category-nav" id="category-nav" aria-label="Shop categories"><a href="#category/Hot%20Deals">Hot Deals</a><a href="#category/Boss'%20Day">Boss' Day</a><a href="#category/Fall">Fall</a><a href="#category/Sympathy">Sympathy</a><a href="#category/Occasion">Occasion</a><a href="#category/Birthday">Birthday</a><a href="#category/Get%20Well">Get Well</a><a href="#category/Flowers">Flowers</a><a href="#category/Plants">Plants</a></nav>
+<div class="announcement"><span>Thoughtful flowers for every kind of moment</span><span>Explore the collection <span aria-hidden="true">↗</span></span></div>
+<header class="site-header">
+ <a class="brand" href="#home" aria-label="Ava's Flowers home"><span class="brand-mark">a</span><span class="brand-word">ava's <i>flowers</i></span></a>
+ <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">☰</button>
+ <nav id="main-nav" aria-label="Main navigation"><a href="#collection">Shop flowers</a><a href="#occasions">Occasions</a><a href="#our-promise">Our promise</a><a href="https://www.avasflowers.net/customersupport" target="_blank" rel="noopener">Help</a></nav>
+ <div class="header-actions"><label class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find your flowers" aria-label="Search flowers"></label><a class="cart" href="#collection" aria-label="View collection">Bag <span id="bag-count">0</span></a></div>
 </header>
-<div class="notice"><strong>Before you order:</strong> Product-specific names, photos, prices, fee amounts and live delivery availability are not inferred where the supplied files do not provide them. Missing product listings are clearly marked.</div>
-<main id="main" tabindex="-1"></main>
-<aside class="help-float"><a href="#help">Need help?</a></aside>
-<footer id="footer" class="site-footer"></footer>
-<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<main id="home">
+<section class="hero">
+ <div class="hero-copy"><p class="eyebrow"><span class="eyebrow-line"></span> THE ART OF GIVING FLOWERS</p><h1>Say it beautifully.<br><em>Send something</em><br>that blooms.</h1><p class="hero-description">From everyday kindness to once-in-a-lifetime celebrations, find a thoughtful arrangement for the people who matter most.</p><div class="hero-buttons"><a class="button button-dark" href="#collection">Explore bestsellers <span>↗</span></a><a class="quiet-link" href="#occasions">Shop by occasion <span>→</span></a></div><div class="hero-proof"><div class="proof-stars">★★★★★</div><div><strong>Flowers that speak from the heart</strong><small>Discover customer-favourite arrangements</small></div></div></div>
+ <div class="hero-visual"><div class="hero-image-wrap"><img src="assets/image3.png" alt="Floral arrangement from the supplied floral collection" fetchpriority="high"><div class="image-caption"><span>THE SIGNATURE EDIT</span><span>Thoughtfully chosen blooms</span></div></div><div class="floating-note"><span class="note-flower">✳</span><span>Make the moment<br><i>feel like a moment.</i></span></div><div class="hero-index">01 <span>—</span> 04</div></div>
+</section>
+<div class="benefit-strip"><div><span>✳</span><p><strong>Made for meaningful moments</strong><small>Gifts for every chapter</small></p></div><div><span>✧</span><p><strong>A collection worth exploring</strong><small>Customer-loved arrangements</small></p></div><div><span>♡</span><p><strong>Here when you need us</strong><small>Friendly customer support</small></p></div></div>
+<section class="section collection-section" id="collection"><div class="section-top"><div><p class="eyebrow">THE FLOWER EDIT</p><h2>Little things.<br><em>Big feelings.</em></h2></div><div class="section-intro"><p>Meet the arrangements customers come back for, with current product details sourced from Ava's Flowers.</p><div class="collection-controls"><div class="filter-tabs" role="group" aria-label="Filter collection"><button class="filter active" data-filter="all">All favourites</button><button class="filter" data-filter="roses">Roses</button><button class="filter" data-filter="bouquet">Bouquets</button><button class="filter" data-filter="plants">Plants</button></div><span id="result-count">12 arrangements</span></div></div></div><div id="product-grid" class="product-grid" aria-live="polite"></div><p class="catalog-note">Product names, starting prices and review counts are based on the official Ava's Flowers website and may change by size, destination, date and availability. Select a product to view the current listing.</p></section>
+<section class="occasion-section" id="occasions"><div class="occasion-copy"><p class="eyebrow">A REASON TO SEND</p><h2>There’s a flower<br>for <em>every feeling.</em></h2><p>Whether you’re celebrating, comforting, thanking or simply saying “I’m thinking of you”, start with the moment.</p><a class="button button-light" href="https://www.avasflowers.net/" target="_blank" rel="noopener">Find your occasion <span>↗</span></a></div><div class="occasion-list"><a href="https://www.avasflowers.net/categories/flowers" target="_blank" rel="noopener"><span>01</span><strong>Just because</strong><span class="occasion-arrow">↗</span></a><a href="https://www.avasflowers.net/categories/flowers" target="_blank" rel="noopener"><span>02</span><strong>Birthdays & milestones</strong><span class="occasion-arrow">↗</span></a><a href="https://www.avasflowers.net/categories/flowers" target="_blank" rel="noopener"><span>03</span><strong>Love & anniversaries</strong><span class="occasion-arrow">↗</span></a><a href="https://www.avasflowers.net/categories/flowers" target="_blank" rel="noopener"><span>04</span><strong>Comfort & sympathy</strong><span class="occasion-arrow">↗</span></a></div></section>
+<section class="promise-section" id="our-promise"><div class="promise-visual"><img src="assets/image4.png" alt="Floral details from the supplied collection" loading="lazy"></div><div class="promise-copy"><p class="eyebrow">A LITTLE MORE THOUGHTFUL</p><h2>Good flowers.<br><em>Better feelings.</em></h2><p>Beautiful flowers are only part of the gesture. We believe the experience should feel considered from the first look to the moment your gift arrives.</p><ul><li><span>01</span>Choose a gift that says it for you</li><li><span>02</span>Review product options and delivery details</li><li><span>03</span>Get help whenever you need it</li></ul><a class="quiet-link" href="https://www.avasflowers.net/customersupport" target="_blank" rel="noopener">Visit customer support <span>→</span></a></div></section>
+<section class="closing-cta"><p class="eyebrow">THE RIGHT WORDS, IN FLOWER FORM</p><h2>Make someone’s day<br><em>a little more beautiful.</em></h2><a class="button button-dark" href="#collection">Shop the collection <span>↗</span></a></section>
+</main>
+<footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">a</span><span class="brand-word">ava's <i>flowers</i></span></a><p>Flowers for the moments that matter.</p><div class="footer-links"><a href="https://www.avasflowers.net/" target="_blank" rel="noopener">Official store</a><a href="https://www.avasflowers.net/customersupport" target="_blank" rel="noopener">Customer support</a><a href="#our-promise">Our promise</a></div><small>Independent website redesign concept. Product links open the official Ava's Flowers website. Final prices, delivery eligibility, fees and availability are confirmed on the official product page.</small></footer>
+<div id="toast" role="status" aria-live="polite"></div>
 </body></html>
