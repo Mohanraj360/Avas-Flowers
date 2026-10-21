@@ -1,0 +1,48 @@
+name: Audit and host verified product images
+
+on:
+  push:
+    branches:
+      - fix/product-image-fallback-audit
+    paths:
+      - 'app.js'
+      - 'styles.css'
+      - 'scripts/audit-product-images.mjs'
+      - '.github/workflows/audit-product-images.yml'
+      - 'assets/catalog/part-*.txt'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit source URLs and download verified image bytes
+        run: node scripts/audit-product-images.mjs
+      - name: Commit hosted images and audit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/product-images assets/catalog/image-manifest.json image-audit-report.json
+          if git diff --cached --quiet; then
+            echo "No generated image or report changes."
+          else
+            git commit -m "Host verified product images and add audit report"
+            git push origin HEAD:$GITHUB_REF_NAME
+          fi
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: product-image-audit
+          path: image-audit-report.json
+          if-no-files-found: ignore
