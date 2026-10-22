@@ -42,3 +42,32 @@
 .cart-quantity button:hover:not(:disabled){background:var(--color-accent-soft);border-color:var(--color-accent)}
 @media(max-width:700px){.cart-quantity button{width:44px;height:44px}}
 @media(max-width:700px){.container,.layout-two,.layout-two>*{width:100%;min-width:0;max-width:100%}.panel{width:100%;min-width:0;max-width:100%}.field-group,.field,.form-field input,.form-field select,.form-field textarea{min-width:0;max-width:100%}.form-grid,.form-grid>*{min-width:0;max-width:100%}}
+
+
+/* Filter toolbar and page navigation */
+#catalog-filter-form{align-items:center}
+#catalog-filter-form .filters{align-items:center;gap:12px}
+#catalog-filter-form .filters label{gap:7px;flex-wrap:wrap}
+#catalog-filter-form .field{width:105px;min-width:90px;padding:9px 10px}
+#catalog-filter-form select{max-width:190px}
+.pagination{align-items:center;flex-wrap:wrap}
+.pagination button:disabled{opacity:.35;cursor:not-allowed}
+.pagination button[aria-current=page]{background:var(--color-ink);color:#fff;border-color:var(--color-ink)}
+.cart-line{gap:20px;align-items:center;padding:18px 0;border-bottom:1px solid var(--color-line)}
+.cart-line>div:last-child{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.cart-line .text-link{padding:5px 0}
+#checkout-button:disabled{opacity:.45;cursor:not-allowed}
+.recently-viewed .product-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:700px){
+ #catalog-filter-form{align-items:stretch}
+ #catalog-filter-form .filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}
+ #catalog-filter-form .filters label{display:flex;flex-direction:column;align-items:stretch}
+ #catalog-filter-form .field,#catalog-filter-form select{width:100%;max-width:none;min-width:0}
+ #catalog-filter-form .filters .button,#catalog-filter-form .filters .text-link{width:100%;min-height:44px}
+ .cart-line{align-items:flex-start}
+ .recently-viewed .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}
+}
