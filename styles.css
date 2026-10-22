@@ -33,3 +33,12 @@
 .product-card .product-price{margin-top:auto;padding-top:10px}
 .product-card .button{display:flex;align-items:center;justify-content:center;min-height:46px;margin-top:12px}
 @media(max-width:700px){.product-image{padding:10px}.product-card h3{min-height:calc(1.3em * 3)}.product-card .button{min-height:42px}}
+
+
+/* Accessible, compact cart quantity controls */
+.cart-quantity{display:inline-flex;align-items:center;gap:10px;margin-top:10px;font-size:var(--text-sm);color:var(--color-muted)}
+.cart-quantity button{display:inline-grid;place-items:center;width:36px;height:36px;border:1px solid var(--color-line);background:var(--color-white);color:var(--color-ink);font-size:20px;line-height:1}
+.cart-quantity button:disabled{opacity:.45;cursor:not-allowed}
+.cart-quantity button:hover:not(:disabled){background:var(--color-accent-soft);border-color:var(--color-accent)}
+@media(max-width:700px){.cart-quantity button{width:44px;height:44px}}
+@media(max-width:700px){.container,.layout-two,.layout-two>*{width:100%;min-width:0;max-width:100%}.panel{width:100%;min-width:0;max-width:100%}.field-group,.field,.form-field input,.form-field select,.form-field textarea{min-width:0;max-width:100%}.form-grid,.form-grid>*{min-width:0;max-width:100%}}
