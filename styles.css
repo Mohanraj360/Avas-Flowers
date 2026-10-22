@@ -71,3 +71,10 @@
  html{scroll-behavior:auto}
  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}
 }
+
+/* Low-key promotional strip keeps offers visible without inventing coupon promises */
+.promotion-strip{background:var(--color-white);border-top:1px solid var(--color-line);border-bottom:1px solid var(--color-line);padding:24px 0}
+.promotion-inner{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.promotion-inner strong{display:block;font:500 clamp(22px,2.4vw,30px)/1.2 var(--font-serif);margin-top:5px}
+.promotion-inner p{font-size:var(--text-sm);color:var(--color-muted);margin:7px 0 0}
+@media(max-width:700px){.promotion-inner{align-items:flex-start;flex-direction:column}.promotion-inner .button{width:100%}}
