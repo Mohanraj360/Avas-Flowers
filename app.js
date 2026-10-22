@@ -77,7 +77,7 @@ function initApp(){
   });
   categoryNav?.addEventListener('click',event=>{if(event.target.closest('a'))closeMobileNav()});
   $('#cart-open')?.addEventListener('click',()=>{if(location.hash==='#cart')render();else location.hash='#cart'});
-  window.addEventListener('hashchange',()=>{closeMobileNav();render()});
+  window.addEventListener('hashchange',()=>{const hash=decodeURIComponent(location.hash.slice(1)||'home');const route=hash.split('/')[0];const appRoutes=new Set(['home','account','faq','category','product','search','cart','checkout','track','help','refunds','confirmation','terms','legacy-content']);if(!appRoutes.has(route)&&document.getElementById(hash))return;closeMobileNav();render()});
   loadSource().then(()=>{
     if(!location.hash)location.hash='#home';
     else render();
